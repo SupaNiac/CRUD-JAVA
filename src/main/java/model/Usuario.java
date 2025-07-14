@@ -1,5 +1,6 @@
 package model;
 
+// Classe onde o usuario tera suas caracteristicas
 public class Usuario {
 
     String Email;
