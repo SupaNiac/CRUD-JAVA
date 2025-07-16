@@ -1,30 +1,46 @@
 package model;
 
-// Classe onde o usuario tera suas caracteristicas
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+
+@Entity
 public class Usuario {
 
-    //aa
-    String Email;
-    String Senha;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer Id;
+    String email;
+    String senha;
 
     public Usuario(String senha, String email) {
-        Senha = senha;
-        Email = email;
+        this.senha = senha;
+        this.email = email;
+    }
+
+    public Integer getId() {
+        return Id;
+    }
+
+    public void setId(Integer id) {
+        Id = id;
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setEmail(String email) {
-        Email = email;
+        this.email = email;
     }
 
     public String getSenha() {
-        return Senha;
+        return senha;
     }
 
     public void setSenha(String senha) {
-        Senha = senha;
+        this.senha = senha;
     }
 }
+
+
