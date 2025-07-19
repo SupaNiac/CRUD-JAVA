@@ -31,6 +31,7 @@ public class UsuarioController {
     }
 
     //POST /usuarios - criar novo
+    @PostMapping
     public Usuario criarUsuario(@RequestBody Usuario usuario){
         return usuarioService.criarUsuario(usuario);
     }
