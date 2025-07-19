@@ -1,10 +1,11 @@
-package controller;
+package com.luizfaria.CrudJava.controller;
 
 
-import model.Usuario;
+
+import com.luizfaria.CrudJava.model.Usuario;
+import com.luizfaria.CrudJava.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.UsuarioService;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,10 +1,9 @@
-package service;
+package com.luizfaria.CrudJava.service;
 
 
-import jakarta.persistence.criteria.CriteriaBuilder;
-import model.Usuario;
+import com.luizfaria.CrudJava.model.Usuario;
+import com.luizfaria.CrudJava.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
-import repository.UsuarioRepository;
 
 import java.util.List;
 import java.util.Optional;
