@@ -22,4 +22,17 @@ Este é um projeto de CRUD (Create, Read, Update, Delete) de usuários, desenvol
 
 ## Capturas de tela 📸
 
+![Screenshot 1](prints/imagem1.png)
+
+*Testando Endpoints pelo Postman*
+
+![Screenshot 2](prints/imagem2.png)
+
+*Banco de dados sendo criado pelo MySQL linkando com o CRUD*
+
+## Melhorias e bugs 🔨🧰🪲
+
+- Adicionar uma interface gráfica (utilizando HTML/CSS)
+- Adicionar mais caracteristicas para os usuarios como: Nome, idade e etc.
+
 
